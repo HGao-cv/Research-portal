@@ -101,14 +101,18 @@ header p {
 
 .author-badge {
   position: absolute;
-  top: 8px;  /* 更靠上，贴紧顶部 */
-  left: 8px; /* 移到左上角，贴紧左侧 */
+  top: 6px;
+  left: 6px;
   background: #0969da;
-  color: white;
-  font-size: 12px;
+  color: white ;
+  font-size: 11px;
   font-weight: 600;
-  padding: 4px 10px;
-  border-radius: 20px;
+  padding: 3px 8px;
+  border-radius: 16px;
+  z-index: 100;
+  line-height: 1.2;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15); /* 加轻微阴影，更立体 */
+  opacity: 0.95; /* 轻微透明，不生硬 */
 }
 
 /* 会议标签 — 小号、不加粗、淡色 */

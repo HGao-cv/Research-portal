@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Research Projects Portal</h1>
+    <p>Unified dashboard for RAD, RAD2, and future projects</p>
+  </header>
+
+  <!-- 切换栏 -->
+  <div class="tab-nav">
+    <button class="tab-btn active" data-target="rad">RAD</button>
+    <button class="tab-btn" data-target="rad2">RAD2</button>
+  </div>
+
+  <!-- 内容区 -->
+  <div class="pages">
+
+    <!-- ================= RAD ================= -->
+    <div class="page active" id="rad">
+      <h2>RAD: Recurrent Adaptive Distillation</h2>
+      <p class="desc">Video recognition knowledge distillation framework.</p>
+
+      <div class="video-container">
+        <video controls>
+          <source src="https://raw.githubusercontent.com/你的用户名/RAD/main/videos/rad-demo.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="links">
+        <a href="https://github.com/你的用户名/RAD" target="_blank">GitHub</a>
+        <a href="#">Paper</a>
+        <a href="#">Demo</a>
+      </div>
+    </div>
+
+    <!-- ================= RAD2 ================= -->
+    <div class="page" id="rad2">
+      <h2>RAD2: Improved Recurrent Adaptive Distillation</h2>
+      <p class="desc">Better, faster, stronger distillation v2.</p>
+
+      <div class="video-container">
+        <video controls>
+          <source src="https://raw.githubusercontent.com/你的用户名/RAD2/main/videos/rad2-demo.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="links">
+        <a href="https://github.com/你的用户名/RAD2" target="_blank">GitHub (RAD2)</a>
+        <a href="#">Paper</a>
+        <a href="#">Demo</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

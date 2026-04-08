@@ -7,7 +7,7 @@ document.head.appendChild(link);
 // 插入导航栏
 const navHTML = `
 <div class="global-nav">
-  <a href="https://hgao-cv.github.io/research-portal/">🏠 Home</a>
+  <a href="https://hgao-cv.github.io/Research-portal/">🏠 Home</a>
   <a href="https://hgao-cv.github.io/RAD/">RAD</a>
   <a href="https://hgao-cv.github.io/RAD2/">RAD2</a>
 </div>

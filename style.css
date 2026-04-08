@@ -101,8 +101,8 @@ header p {
 
 .author-badge {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 8px;  /* 更靠上，贴紧顶部 */
+  left: 8px; /* 移到左上角，贴紧左侧 */
   background: #0969da;
   color: white;
   font-size: 12px;

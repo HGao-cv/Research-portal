@@ -1,12 +1,12 @@
-// 加载CSS
+// 加载侧边栏CSS
 const link = document.createElement('link');
 link.rel = 'stylesheet';
 link.href = 'https://hgao-cv.github.io/Research-portal/nav.css';
 document.head.appendChild(link);
 
-// 插入导航栏
+// 插入侧边导航栏HTML
 const navHTML = `
-<div class="global-nav">
+<div class="side-nav">
   <a href="https://hgao-cv.github.io/Research-portal/">🏠 Home</a>
   <a href="https://hgao-cv.github.io/RAD/">RAD</a>
   <a href="https://hgao-cv.github.io/RAD2/">RAD2</a>

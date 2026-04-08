@@ -9,6 +9,7 @@ const navHTML = `
 <button class="nav-toggle" id="navToggle">☰</button>
 <div class="side-nav collapsed" id="sideMenu">
   <a href="https://hgao-cv.github.io/Research-portal/">🏠 Home</a>
+  <a href="https://hgao-cv.github.io/VADv2/">VADv2</a>
   <a href="https://hgao-cv.github.io/RAD/">RAD</a>
   <a href="https://hgao-cv.github.io/RAD2/">RAD2</a>
 </div>

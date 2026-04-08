@@ -1,7 +1,7 @@
 // 加载CSS
 const link = document.createElement('link');
 link.rel = 'stylesheet';
-link.href = 'https://hgao-cv.github.io/research-portal/nav.css';
+link.href = 'https://hgao-cv.github.io/Research-portal/nav.css';
 document.head.appendChild(link);
 
 // 插入导航栏

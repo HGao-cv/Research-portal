@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Research Portal</title>
+  <title>Research Projects Portal</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,57 +11,48 @@
 <div class="container">
   <header>
     <h1>Research Projects Portal</h1>
-    <p>Unified dashboard for RAD, RAD2, and future projects</p>
+    <p>Unified dashboard for my research work</p>
   </header>
 
-  <!-- 切换栏 -->
-  <div class="tab-nav">
-    <button class="tab-btn active" data-target="rad">RAD</button>
-    <button class="tab-btn" data-target="rad2">RAD2</button>
-  </div>
+  <!-- 项目卡片列表 -->
+  <div class="projects-grid">
 
-  <!-- 内容区 -->
-  <div class="pages">
-
-    <!-- ================= RAD ================= -->
-    <div class="page active" id="rad">
+    <!-- RAD 项目卡片 -->
+    <div class="project-card">
       <h2>RAD: Recurrent Adaptive Distillation</h2>
-      <p class="desc">Video recognition knowledge distillation framework.</p>
-
-      <div class="video-container">
-        <video controls>
-          <source src="https://raw.githubusercontent.com/你的用户名/RAD/main/videos/rad-demo.mp4" type="video/mp4">
-        </video>
-      </div>
-
+      <p class="desc">A novel knowledge distillation framework for efficient video recognition.</p>
       <div class="links">
-        <a href="https://github.com/你的用户名/RAD" target="_blank">GitHub</a>
-        <a href="#">Paper</a>
-        <a href="#">Demo</a>
+        <a href="https://github.com/hustvl/RAD" target="_blank">GitHub</a>
+        <a href="https://hgao-cv.github.io/RAD/" target="_blank">Project Page</a>
+        <a href="#" target="_blank">Paper</a>
       </div>
     </div>
 
-    <!-- ================= RAD2 ================= -->
-    <div class="page" id="rad2">
+    <!-- RAD2 项目卡片 -->
+    <div class="project-card">
       <h2>RAD2: Improved Recurrent Adaptive Distillation</h2>
-      <p class="desc">Better, faster, stronger distillation v2.</p>
-
-      <div class="video-container">
-        <video controls>
-          <source src="https://raw.githubusercontent.com/你的用户名/RAD2/main/videos/rad2-demo.mp4" type="video/mp4">
-        </video>
-      </div>
-
+      <p class="desc">Enhanced version with better stability, faster convergence, and stronger representation.</p>
       <div class="links">
-        <a href="https://github.com/你的用户名/RAD2" target="_blank">GitHub (RAD2)</a>
-        <a href="#">Paper</a>
-        <a href="#">Demo</a>
+        <a href="https://github.com/你的用户名/RAD2" target="_blank">GitHub</a>
+        <a href="https://hgao-cv.github.io/RAD2/" target="_blank">Project Page</a>
+        <a href="#" target="_blank">Paper</a>
       </div>
     </div>
+
+    <!-- 未来新项目卡片（直接复制即可）
+    <div class="project-card">
+      <h2>New Project Name</h2>
+      <p class="desc">Project description here.</p>
+      <div class="links">
+        <a href="https://github.com/..." target="_blank">GitHub</a>
+        <a href="https://hgao-cv.github.io/..." target="_blank">Project Page</a>
+        <a href="#" target="_blank">Paper</a>
+      </div>
+    </div>
+    -->
 
   </div>
 </div>
 
-<script src="script.js"></script>
 </body>
 </html>

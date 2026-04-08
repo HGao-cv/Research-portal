@@ -115,9 +115,13 @@ header p {
 .conference-tag {
   font-size: 0.65em;
   color: #555;
-  font-weight: normal; /* 取消加粗 */
+  font-weight: normal;
   margin-right: 6px;
-  vertical-align: top;
+  vertical-align: baseline;
+  line-height: 1.2;
+  background: #f0f0f0;
+  padding: 1px 4px;
+  border-radius: 4px;
 }
 
 /* 响应式适配 */

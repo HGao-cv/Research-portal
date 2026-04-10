@@ -12,6 +12,7 @@ const navHTML = `
   <a href="https://hgao-cv.github.io/VADv2/">VADv2</a>
   <a href="https://hgao-cv.github.io/RAD/">RAD</a>
   <a href="https://hgao-cv.github.io/RAD-2/">RAD-2</a>
+  <a href="https://hgao-cv.github.io/senna2-project/">Senna-2</a>
 </div>
 `;
 
